@@ -1,0 +1,41 @@
+{
+  "product": "JinaqKit",
+  "disposition": "ship",
+  "scope": "Fresh source and visual finish review of the ordinary code-led Operate extension at the six supplied actual 1280px captures. This is not approval of unobserved widths, the whole application, backend security, or a real service outcome.",
+  "persistence": {
+    "product_truth": "PRODUCT.md and module.js agree on a bounded synthetic whole-component ledger: a shortage changes no balances, a successful assembly records all debits, and an administrator records one separate full reversal using the original assembly snapshot.",
+    "durable_authority": "The surface contract in .impeccable/surfaces/public-app-js.md inherits ../taza-batch/DESIGN.md. The navy header/navigation, pale blue ground, native white forms/tables, green explicit actions, system typography, language nodes and focus treatment remain coherent with that incumbent world. No new visual identity or image comp is required for this narrow extension.",
+    "historical_truth": "public/app.js renders the saved assembly report and snapshot separately from the current reversal. The returned capture retains assembly #3 and its original CARD 10→8 and PACK 3→2 debit evidence; the separate reversal #5 shows CARD 8→10 and PACK 2→3. The current balances capture uses the current renamed and archived component while historical screens retain the original saved code/name. These are visible distinctions, not an independent persistence or restore audit."
+  },
+  "fidelity": {
+    "reference": "PRODUCT.md, the six-block own-world surface contract, and ../taza-batch/DESIGN.md; no approved raster comp exists for this code-led extension.",
+    "finding": "The supplied states fulfill the committed composition. Saved outcome, recipe/version, kit count and actor/time lead; the complete before/needed/after table follows; current reversal state and the explicit administrator form are separate. The shortage explains PACK missing 1 and visibly preserves both after values. The return form requires a labelled reason, and the completed return replaces it with a saved separate-record link. The original RU/KK recipe remains inspectable through a native disclosure.",
+    "capture_validity": "All six supplied JPEG files were opened independently. Each is a complete nonblank top-to-footer capture of the state named below. No clipped content or page-width overflow is visible at the supplied actual 1280px width. The builder reports innerWidth and scrollWidth both 1280; that measurement was not rerun by this reviewer.",
+    "captures": [
+      {"path": ".impeccable/review/shortage-1280.jpg", "pixels": "1280x965", "state": "Staff shortage #4: zero debits and nothing to return"},
+      {"path": ".impeccable/review/return-form-1280.jpg", "pixels": "1280x1426", "state": "Administrator return form before submission, retained draft reason, original recipe expanded and focused"},
+      {"path": ".impeccable/review/returned-1280.jpg", "pixels": "1280x1302", "state": "Original successful assembly with separate saved reversal #5 and exact original recipe"},
+      {"path": ".impeccable/review/reversal-1280.jpg", "pixels": "1280x775", "state": "Independent full reversal #5 with historical before/return/after quantities"},
+      {"path": ".impeccable/review/balances-1280.jpg", "pixels": "1280x829", "state": "Current balances include the renamed archived component and restored quantities"},
+      {"path": "../../../../outputs/products/jinaq-kit-stale-refusal.jpg", "pixels": "1280x1495", "state": "Stale command refused with a recovery message while the return reason remains in the form"}
+    ]
+  },
+  "ceiling": {
+    "craft_floor": "The observed hierarchy, spacing, table alignment, written outcomes, native controls and labels support the working task without ornamental scaffolding. Source color ratios are 12.41:1 for body text on the page, 5.71:1 for supporting text, 6.88:1 for white primary-action text and 7.37:1 for error text. Source provides connected labels, column-scoped headers, focusable table wrappers, a skip link, task/preview focus, a polite status region, disabled initiating controls and invalidated obsolete previews. The supplied expanded disclosure visibly carries the inherited focus outline. These source semantics do not establish a screen-reader or complete keyboard audit.",
+    "detector": "The supplied one-pass work/program/jinaq-ui-detect.json contains []. This is a mechanical UI detector result, not a security certification.",
+    "limits": [
+      "Mobile/390px and 1440px rendering remain unverified. The browser accepted requested viewport changes but actually stayed at 1280px, so no responsive or wider-desktop pass is claimed.",
+      "This review did not operate a browser, rerun the reported 20 backend tests, or independently verify concurrency, replay rejection, account permissions, backup/restore, transport or security.",
+      "Only the supplied shortage, return-form, completed-return, reversal, current-balance and stale-error captures received visual review. Other screens and states, hover/loading/empty/overlong content, touch behavior and every breakpoint are outside the visual verdict."
+    ],
+    "judgment": "No concrete material finish issue was found within the supplied valid 1280px evidence and the reviewed extension source. Ship is bounded to that scope."
+  },
+  "material_fixes": [],
+  "keep": [
+    "Keep the shortage explanation beside every component's unchanged after quantity; this makes the all-or-none result inspectable.",
+    "Keep historical assembly quantities, the exact original RU/KK recipe, current return state and current component balances distinct.",
+    "Keep the administrator's required reason and explicit one-time full-return action, plus the separate saved reversal record.",
+    "Keep stale refusals visible with a recovery instruction and retained draft input; the error must not impersonate a saved return.",
+    "Keep the incumbent cabinet grammar and the synthetic/shared-area boundaries without claiming Make connectivity or physical-stock outcomes."
+  ]
+}

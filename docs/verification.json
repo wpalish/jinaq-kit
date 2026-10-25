@@ -1,0 +1,70 @@
+{
+  "product": "jinaq-kit",
+  "title": "JinaqKit",
+  "reference": 12,
+  "version": "0.1.0",
+  "as_of": "2026-10-25T17:00:35.422344+00:00",
+  "tests": {
+    "passed": 20,
+    "failed": 0,
+    "log": "docs/test-output.txt"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "proof": "docs/browser-proof.json",
+    "desktop": "docs/returned-1280.jpg",
+    "actual_viewports": [
+      1280
+    ],
+    "mobile": "not_verified_viewport_override_did_not_apply",
+    "external_action": false
+  },
+  "acceptance": [
+    "20 passing tests:all-or-none stock,zero-debit shortage,frozenrecipe,onefullreturn,quantitybounds,roles,revision,replay,archive,clockrollback,twoSQLiteconnections,file restart/consistentbackup,emptyrestore/corruptcopies,HTTPOrigin/CSRF/cookie/privacy.",
+    "Actual two forms:one explicit assembly consumes2CARD+1PACK;old3kitconfirmation refused whole9/audit9,inputretained. Fresh3kit savedshortage with everybalanceunchanged.",
+    "Renamed/archived component andnewdraftquantity9 didnotalterpriorpublicationv3/assemblies;oldreturnformrefusedwhole13/audit13. Freshadminreturnrestoredoriginal2+1,notnew9.",
+    "8 actualHTTP400refused with wholeworkspace/audit14unchanged;final2items/1recipe/2parts/1pub/2receipts/2assemblies/1return.",
+    "Ownedrestart43498→43632 preserved wholeworkspace/audit14/all4tables;29priorserverDBsunchanged,Sabaqowneroriginuntouched.",
+    "Five fullvalid1280CSS captures opened;scrollWidth1280,nativeTabReturn/disclosure/focus/langkkobserved;requestedotherwidthsnotapplied andnotclaimed."
+  ],
+  "limits": [
+    "All quantities wholepieces;receipt1..1000000,recipe1..10distinctparts1..1000each,kitcount1..100. Numericformvalues normalizedbysharedparser,no arbitraryunits/conversions/weights/fractions.",
+    "Savedshortage consumesUUIDbutdebitsnothing;previewdoesnotreserve. Onefulladminreturnperassembledrecord;no partialreturn/receiptcorrection/cancellation/undoreturn/finishedSKUinventory.",
+    "Publishedrecipe/partnames frozen;newitemmetadata doesnotadvance recipeversion orrefreshsnapshot without recipe/partcontentchange. Fullintermediate drafts notstored.",
+    "Item/recipe/publicationarchiveblocksnewreceipts/publish/assemblies;oldreturnmayrestorearchiveditem. Ledgerarchives visibilityonly,allquantitiesstillcount.",
+    "Globalrevisionincludingunrelatedwrites,globalUUIDrefusalnotidempotentsuccess,servercomputesallinBEGINIMMEDIATE. Preview/hashoptionalHTTP,not humanapproval.",
+    "Sharedstaffworkspace,no tenantisolation. Adminitems/recipes/parts/publication/receipts/returns/archive/copies;staffassemblies. No UIpasswordreset/sessionrevocation.",
+    "UnsignedJSON/hashconsistency,notauthenticity/historicrights;accounts/auth/auditexcluded,emptyrestoreonly,HTTPJSON2MB,largerbackupmayexceedlimit;fullSQLiteconsistentbackupseparate.",
+    "NoMakecode/integration/externalconnector/AI/cron/webhook/secrets/realdata/physicalstock/reserve/orders/messages/payments/customerresults.",
+    "Browseractual1280only:resizecapabilitydidnotapply1440/390. No verifiedmobile/touch/screenreader/load/publichosting/externalsecurityaudit. Review limitedsuppliedsource/captures."
+  ],
+  "runtime": {
+    "pid": 43632,
+    "port": 8852,
+    "script": "work/program/run-jinaq-kit.mjs",
+    "before": "work/program/jinaq-restart-before.json",
+    "after": "work/program/jinaq-restart-after.json"
+  },
+  "preservation": {
+    "before": "work/program/jinaq-prior-before.json",
+    "after": "work/program/jinaq-prior-after.json",
+    "previous_servers": 29,
+    "own_tables_before": "work/program/jinaq-tables-before.json",
+    "own_tables_after": "work/program/jinaq-tables-after.json",
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship",
+    "file": "docs/finish-review.json",
+    "static_detector": "One --json returned[];notsecuritycleanbill",
+    "scope": "Six actual1280 captures/source only;mobile and1440unverified"
+  },
+  "commercial": {
+    "potential_company_matches": 10,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "release_note": "JinaqKit reference12:original publishedkitrecipe and atomicall-or-none localquantityledger, savedzero-debitshortage andexactlyonceadminfullreturn.20tests;actualstalerefusals9/13;8HTTP400whole14/audit14;ownrestart/all4tables/29priorDBs preserved. Actualbrowser1280only;no mobileclaim. Noexternalintegration/physicalstock/clientclaim."
+}

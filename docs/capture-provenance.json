@@ -1,0 +1,52 @@
+[
+  {
+    "source": ".impeccable/review/shortage-1280.jpg",
+    "shipping_path": "docs/shortage-1280.jpg",
+    "origin": "Own synthetic local browser http://127.0.0.1:8852",
+    "actual_encoding": "JPEG",
+    "actual_viewport_width": 1280,
+    "opened_valid": true,
+    "sha256": "13e2b38bb9f56c0bdb48772c28d760d14e5e6983ae5ea45203026ca582b5d00c",
+    "generation_prompt": null
+  },
+  {
+    "source": ".impeccable/review/return-form-1280.jpg",
+    "shipping_path": "docs/return-form-1280.jpg",
+    "origin": "Own synthetic local browser http://127.0.0.1:8852",
+    "actual_encoding": "JPEG",
+    "actual_viewport_width": 1280,
+    "opened_valid": true,
+    "sha256": "2e291bba13ea549095fd5a3e6932cfe680c859667d2f5a9ecb47930ad97933e4",
+    "generation_prompt": null
+  },
+  {
+    "source": ".impeccable/review/returned-1280.jpg",
+    "shipping_path": "docs/returned-1280.jpg",
+    "origin": "Own synthetic local browser http://127.0.0.1:8852",
+    "actual_encoding": "JPEG",
+    "actual_viewport_width": 1280,
+    "opened_valid": true,
+    "sha256": "0b8b672f4d1d13e7b070b0e979742cab53e7e205ff925a8aafde725ce68e1ed8",
+    "generation_prompt": null
+  },
+  {
+    "source": ".impeccable/review/reversal-1280.jpg",
+    "shipping_path": "docs/reversal-1280.jpg",
+    "origin": "Own synthetic local browser http://127.0.0.1:8852",
+    "actual_encoding": "JPEG",
+    "actual_viewport_width": 1280,
+    "opened_valid": true,
+    "sha256": "f9c07332586e4d8533d69fa37c374d6baeb0f201a0480227c45b427009b62d85",
+    "generation_prompt": null
+  },
+  {
+    "source": ".impeccable/review/balances-1280.jpg",
+    "shipping_path": "docs/balances-1280.jpg",
+    "origin": "Own synthetic local browser http://127.0.0.1:8852",
+    "actual_encoding": "JPEG",
+    "actual_viewport_width": 1280,
+    "opened_valid": true,
+    "sha256": "70551ffc662fd660df8878925c082701ed094df7ca0d162a3cb42671f7b4a8b0",
+    "generation_prompt": null
+  }
+]

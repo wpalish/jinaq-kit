@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T17:05:44.782043Z",
+  "title": "Design System: JinaqKit",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "displayName": "Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0820 173.03)",
+          "oklch(25% 0.0820 173.03)",
+          "oklch(35% 0.0820 173.03)",
+          "oklch(45% 0.0820 173.03)",
+          "oklch(60% 0.0820 173.03)",
+          "oklch(75% 0.0820 173.03)",
+          "oklch(85% 0.0820 173.03)",
+          "oklch(95% 0.0820 173.03)"
+        ]
+      },
+      "primary-hover": {
+        "displayName": "Deep Working Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0718 173.05)",
+          "oklch(25% 0.0718 173.05)",
+          "oklch(35% 0.0718 173.05)",
+          "oklch(45% 0.0718 173.05)",
+          "oklch(60% 0.0718 173.05)",
+          "oklch(75% 0.0718 173.05)",
+          "oklch(85% 0.0718 173.05)",
+          "oklch(95% 0.0718 173.05)"
+        ]
+      },
+      "navy": {
+        "displayName": "Cabinet Navy",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0733 248.44)",
+          "oklch(25% 0.0733 248.44)",
+          "oklch(35% 0.0733 248.44)",
+          "oklch(45% 0.0733 248.44)",
+          "oklch(60% 0.0733 248.44)",
+          "oklch(75% 0.0733 248.44)",
+          "oklch(85% 0.0733 248.44)",
+          "oklch(95% 0.0733 248.44)"
+        ]
+      },
+      "ink": {
+        "displayName": "Cabinet Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0513 249.96)",
+          "oklch(25% 0.0513 249.96)",
+          "oklch(35% 0.0513 249.96)",
+          "oklch(45% 0.0513 249.96)",
+          "oklch(60% 0.0513 249.96)",
+          "oklch(75% 0.0513 249.96)",
+          "oklch(85% 0.0513 249.96)",
+          "oklch(95% 0.0513 249.96)"
+        ]
+      },
+      "page": {
+        "displayName": "Cool Workspace",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0093 242.84)",
+          "oklch(25% 0.0093 242.84)",
+          "oklch(35% 0.0093 242.84)",
+          "oklch(45% 0.0093 242.84)",
+          "oklch(60% 0.0093 242.84)",
+          "oklch(75% 0.0093 242.84)",
+          "oklch(85% 0.0093 242.84)",
+          "oklch(95% 0.0093 242.84)"
+        ]
+      },
+      "surface": {
+        "displayName": "White Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(25% 0.0000 0.00)",
+          "oklch(35% 0.0000 0.00)",
+          "oklch(45% 0.0000 0.00)",
+          "oklch(60% 0.0000 0.00)",
+          "oklch(75% 0.0000 0.00)",
+          "oklch(85% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "line": {
+        "displayName": "Divider Blue",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0278 241.23)",
+          "oklch(25% 0.0278 241.23)",
+          "oklch(35% 0.0278 241.23)",
+          "oklch(45% 0.0278 241.23)",
+          "oklch(60% 0.0278 241.23)",
+          "oklch(75% 0.0278 241.23)",
+          "oklch(85% 0.0278 241.23)",
+          "oklch(95% 0.0278 241.23)"
+        ]
+      },
+      "navigation-surface": {
+        "displayName": "Navigation Mist",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0195 240.74)",
+          "oklch(25% 0.0195 240.74)",
+          "oklch(35% 0.0195 240.74)",
+          "oklch(45% 0.0195 240.74)",
+          "oklch(60% 0.0195 240.74)",
+          "oklch(75% 0.0195 240.74)",
+          "oklch(85% 0.0195 240.74)",
+          "oklch(95% 0.0195 240.74)"
+        ]
+      },
+      "muted": {
+        "displayName": "Supporting Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0511 245.00)",
+          "oklch(25% 0.0511 245.00)",
+          "oklch(35% 0.0511 245.00)",
+          "oklch(45% 0.0511 245.00)",
+          "oklch(60% 0.0511 245.00)",
+          "oklch(75% 0.0511 245.00)",
+          "oklch(85% 0.0511 245.00)",
+          "oklch(95% 0.0511 245.00)"
+        ]
+      },
+      "input-stroke": {
+        "displayName": "Field Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0456 242.07)",
+          "oklch(25% 0.0456 242.07)",
+          "oklch(35% 0.0456 242.07)",
+          "oklch(45% 0.0456 242.07)",
+          "oklch(60% 0.0456 242.07)",
+          "oklch(75% 0.0456 242.07)",
+          "oklch(85% 0.0456 242.07)",
+          "oklch(95% 0.0456 242.07)"
+        ]
+      },
+      "link": {
+        "displayName": "Link Blue",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0980 249.12)",
+          "oklch(25% 0.0980 249.12)",
+          "oklch(35% 0.0980 249.12)",
+          "oklch(45% 0.0980 249.12)",
+          "oklch(60% 0.0980 249.12)",
+          "oklch(75% 0.0980 249.12)",
+          "oklch(85% 0.0980 249.12)",
+          "oklch(95% 0.0980 249.12)"
+        ]
+      },
+      "pending": {
+        "displayName": "Pending Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0982 77.06)",
+          "oklch(25% 0.0982 77.06)",
+          "oklch(35% 0.0982 77.06)",
+          "oklch(45% 0.0982 77.06)",
+          "oklch(60% 0.0982 77.06)",
+          "oklch(75% 0.0982 77.06)",
+          "oklch(85% 0.0982 77.06)",
+          "oklch(95% 0.0982 77.06)"
+        ]
+      },
+      "error": {
+        "displayName": "Error Red",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1458 27.85)",
+          "oklch(25% 0.1458 27.85)",
+          "oklch(35% 0.1458 27.85)",
+          "oklch(45% 0.1458 27.85)",
+          "oklch(60% 0.1458 27.85)",
+          "oklch(75% 0.1458 27.85)",
+          "oklch(85% 0.1458 27.85)",
+          "oklch(95% 0.1458 27.85)"
+        ]
+      },
+      "error-surface": {
+        "displayName": "Pale Error",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0165 26.65)",
+          "oklch(25% 0.0165 26.65)",
+          "oklch(35% 0.0165 26.65)",
+          "oklch(45% 0.0165 26.65)",
+          "oklch(60% 0.0165 26.65)",
+          "oklch(75% 0.0165 26.65)",
+          "oklch(85% 0.0165 26.65)",
+          "oklch(95% 0.0165 26.65)"
+        ]
+      },
+      "focus": {
+        "displayName": "Focus Amber",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.1375 55.87)",
+          "oklch(25% 0.1375 55.87)",
+          "oklch(35% 0.1375 55.87)",
+          "oklch(45% 0.1375 55.87)",
+          "oklch(60% 0.1375 55.87)",
+          "oklch(75% 0.1375 55.87)",
+          "oklch(85% 0.1375 55.87)",
+          "oklch(95% 0.1375 55.87)"
+        ]
+      },
+      "selection-surface": {
+        "displayName": "Soft Selection Green",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0441 174.61)",
+          "oklch(25% 0.0441 174.61)",
+          "oklch(35% 0.0441 174.61)",
+          "oklch(45% 0.0441 174.61)",
+          "oklch(60% 0.0441 174.61)",
+          "oklch(75% 0.0441 174.61)",
+          "oklch(85% 0.0441 174.61)",
+          "oklch(95% 0.0441 174.61)"
+        ]
+      },
+      "selection-ink": {
+        "displayName": "Selection Ink",
+        "role": "tertiary",
+        "tonalRamp": [
+          "oklch(15% 0.0360 177.75)",
+          "oklch(25% 0.0360 177.75)",
+          "oklch(35% 0.0360 177.75)",
+          "oklch(45% 0.0360 177.75)",
+          "oklch(60% 0.0360 177.75)",
+          "oklch(75% 0.0360 177.75)",
+          "oklch(85% 0.0360 177.75)",
+          "oklch(95% 0.0360 177.75)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "primary-heading": {
+        "displayName": "Task heading",
+        "purpose": "Fixed inherited heading for the current form, publication, assembly, return or component collection."
+      },
+      "section-heading": {
+        "displayName": "Section heading",
+        "purpose": "Written saved outcome, current return state, exact original recipe and current balance summary."
+      },
+      "brand": {
+        "displayName": "Cabinet brand",
+        "purpose": "Inherited heavier identity in the navy header."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "System typography with authored RU/KK nodes inside the Russian interface."
+      },
+      "label": {
+        "displayName": "Control label",
+        "purpose": "Connected native field labels and labelled explicit actions."
+      },
+      "supporting": {
+        "displayName": "Supporting text",
+        "purpose": "Historical/current distinction, synthetic-only boundary, publication digest, table headings and footer."
+      },
+      "exact-json": {
+        "displayName": "Exact JSON",
+        "purpose": "Browser-native preformatted face in the retained journal/data-access surface."
+      }
+    },
+    "breakpoints": [
+      {
+        "name": "stacked-layout",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-table-search",
+        "value": "600px"
+      }
+    ],
+    "shadows": [],
+    "motion": [],
+    "documentationScope": {
+      "documentationMode": "scan of inherited implementation",
+      "inheritsFrom": [
+        "https://github.com/wpalish/taza-batch/blob/778cd3b176be02f79a274484d9b9f6987eac7c61/DESIGN.md",
+        "https://github.com/wpalish/taza-batch/blob/778cd3b176be02f79a274484d9b9f6987eac7c61/.impeccable/design.json"
+      ],
+      "inheritanceRole": "Contextual visual lineage; normative implemented tokens and JinaqKit behavior are self-contained in local DESIGN.md and source.",
+      "sourceFiles": [
+        "public/app.js",
+        "public/styles.css",
+        "public/index.html"
+      ],
+      "productTruth": "PRODUCT.md",
+      "surfaceBrief": ".impeccable/surfaces/public-app-js.md",
+      "review": "docs/finish-review.json",
+      "provenance": "docs/capture-provenance.json",
+      "captureCount": 6,
+      "shippingAliasCount": 5,
+      "capturePaths": [
+        "docs/shortage-1280.jpg",
+        "docs/return-form-1280.jpg",
+        "docs/returned-1280.jpg",
+        "docs/reversal-1280.jpg",
+        "docs/balances-1280.jpg",
+        "../../../outputs/products/jinaq-kit-stale-refusal.jpg"
+      ],
+      "actualReviewedWidth": 1280,
+      "reviewDisposition": "ship",
+      "materialFixes": 0,
+      "viewportLimitation": "Requested 390px and 1440px settings were accepted but reported DOM width stayed 1280px; neither width is verified.",
+      "contextRerun": false,
+      "detectorRerun": false,
+      "browserOrInteractionChecksRerun": false,
+      "backendTestsRerun": false,
+      "wholeMobileTouchScreenReaderOrSecurityClaim": false,
+      "snippetBehavior": "Ten static self-contained visual examples; native controls and disclosures only, with non-submitting action buttons and no application handlers or backend execution. Preview example is source-derived, not an additional reviewed capture.",
+      "colorRampProvenance": "Inherited TazaBatch derived OKLCH inspection strips; not additional implemented interface colors.",
+      "shippingFileEncoding": "Five .jpg shipping aliases contain JPEG bytes identical to reviewed .impeccable/review/*.jpg source captures. The sixth JPEG stale refusal is separately listed in the finish review.",
+      "scope": "Six supplied actual 1280px states and reviewed frontend source only; no general application, breakpoint, backend, persistence, security, external connectivity or delivered-service approval."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Green explicit publication, saved-outcome and full-return actions; static visual example.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\" lang=\"ru\">Явно записать этот исход</button>",
+      "css": ".ds-button-primary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--teal,#126653);color:#fff;border-color:var(--teal,#126653)}.ds-button-primary:hover{filter:brightness(1.13)}.ds-button-primary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-primary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-primary{max-width:100%}}.ds-button-primary:hover{background:#0b5343}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White labelled refresh, return, archive and settings actions.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\" lang=\"ru\">Обновить сборку</button>",
+      "css": ".ds-button-secondary{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:#fff;color:var(--navy,#183e60)}.ds-button-secondary:hover{filter:brightness(1.13)}.ds-button-secondary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-secondary:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-secondary{max-width:100%}}"
+    },
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button-default",
+      "description": "Retained navy baseline; application task actions use the primary or secondary variants.",
+      "html": "<button class=\"ds-button-default\" type=\"button\" lang=\"ru\">Действие</button>",
+      "css": ".ds-button-default{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--navy,#183e60);color:#fff}.ds-button-default:hover{filter:brightness(1.13)}.ds-button-default:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-button-default:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-button-default{max-width:100%}}"
+    },
+    {
+      "name": "Labelled Native Assembly Fields",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Connected native select, whole-kit number input and required reason textarea. Static form excerpt with no submit handler.",
+      "html": "<div class=\"ds-content\" lang=\"ru\"><label class=\"ds-label\" for=\"ds-publication\">Публикация</label><select class=\"ds-field\" id=\"ds-publication\" name=\"publication\" required><option value=\"\">Выберите значение</option><option value=\"synthetic-v3\" selected>STUDY_KIT · v3</option></select><label class=\"ds-label\" for=\"ds-kit-count\">Комплектов</label><input class=\"ds-field\" id=\"ds-kit-count\" name=\"quantity\" type=\"number\" min=\"1\" max=\"100\" step=\"1\" value=\"3\" required><label class=\"ds-label\" for=\"ds-assembly-note\">Основание</label><textarea class=\"ds-field ds-field-textarea\" id=\"ds-assembly-note\" name=\"note\" required>SYN: проверка вымышленного комплекта</textarea></div>",
+      "css": ".ds-content{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;min-width:0;overflow-wrap:anywhere}.ds-content h1{font-size:2rem;line-height:1.15;letter-spacing:-.025em;margin:0 0 .8rem}.ds-content h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-content p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}.ds-muted{color:#46627a;font-size:.9rem}.ds-authored{white-space:pre-wrap}.ds-label{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;display:block;font-weight:600;margin:1rem 0 .35rem;color:#172e45}.ds-label:first-child{margin-top:0}.ds-field{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;width:100%;box-sizing:border-box;padding:.7rem;border:1px solid #7894aa;border-radius:7px;background:#fff;color:#172e45;caret-color:#174e7e}.ds-field:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-field-textarea{min-height:100px;resize:vertical}"
+    },
+    {
+      "name": "Form Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Flat inherited white form surface; assembly and return evidence remain on the page ground.",
+      "html": "<section class=\"ds-panel\" lang=\"ru\"><p>Preview не резервирует. Явная запись расходует все компоненты либо сохраняет отказ без списаний.</p></section>",
+      "css": ".ds-panel{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#fff;border:1px solid var(--line,#b9cbd9);border-radius:12px;padding:1.4rem;min-width:0}.ds-panel p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}@media(max-width:700px){.ds-panel{padding:1rem}}"
+    },
+    {
+      "name": "Section Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-current",
+      "description": "Native collection buttons identify current assemblies on the inherited pale strip.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Разделы\" lang=\"ru\"><button class=\"ds-nav-button\" type=\"button\">Компоненты</button><button class=\"ds-nav-button\" type=\"button\" aria-current=\"page\">Сборки</button><button class=\"ds-nav-button\" type=\"button\">Возвраты</button><button class=\"ds-nav-button\" type=\"button\">Данные и доступ</button></nav>",
+      "css": ".ds-nav{display:flex;gap:.5rem;padding:.7rem max(1.25rem,calc((100% - 1160px)/2));background:#dce9f3;border-bottom:1px solid var(--line,#b9cbd9)}.ds-nav-button{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid transparent;border-radius:7px;font-weight:600;cursor:pointer;background:transparent;color:var(--navy,#183e60)}.ds-nav-button[aria-current=\"page\"]{background:#fff;border-color:var(--line,#b9cbd9)}.ds-nav-button:hover{filter:brightness(1.13)}.ds-nav-button:focus-visible{outline:3px solid #bd671a;outline-offset:3px}@media(max-width:700px){.ds-nav{padding:.6rem;flex-wrap:wrap}.ds-nav-button{flex:1;max-width:100%}}@media(max-width:600px){.ds-nav-button{flex:auto}}"
+    },
+    {
+      "name": "Saved Assembly and Current Return State",
+      "kind": "custom",
+      "refersTo": "component-table",
+      "description": "Observed successful assembly #3 keeps its original historical debit table after separate return #5. Current quantities belong to Components; static excerpt.",
+      "html": "<section class=\"ds-content\" lang=\"ru\"><h1>Сборка #3 · STUDY_KIT</h1><p>v3 · 1 комплектов · alpha · 2026-10-25T16:53:49.496Z</p><h2>Весь расход записан</h2><div class=\"ds-table-wrap\" tabindex=\"0\" aria-label=\"Исторические количества компонентов; горизонтальная прокрутка.\"><table class=\"ds-table\"><thead><tr><th scope=\"col\">Компонент</th><th scope=\"col\">Было, шт.</th><th scope=\"col\">Нужно / вернуть, шт.</th><th scope=\"col\">Стало, шт.</th></tr></thead><tbody><tr><td>CARD · Учебная карточка SYN</td><td>10</td><td>2</td><td>8</td></tr><tr><td>PACK · Пакет SYN</td><td>3</td><td>1</td><td>2</td></tr></tbody></table></div><p class=\"ds-muted\">Это исторический снимок операции. Текущие остатки — в разделе «Компоненты».</p><h2>Текущее состояние возврата</h2><p>Все компоненты возвращены отдельной записью #5 · coordinator · 2026-10-25T16:57:04.912Z</p><button class=\"ds-record-link\" type=\"button\">Открыть полный возврат</button></section>",
+      "css": ".ds-content{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;min-width:0;overflow-wrap:anywhere}.ds-content h1{font-size:2rem;line-height:1.15;letter-spacing:-.025em;margin:0 0 .8rem}.ds-content h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-content p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}.ds-muted{color:#46627a;font-size:.9rem}.ds-authored{white-space:pre-wrap}.ds-table-wrap{overflow:auto;margin-top:1rem;border:1px solid var(--line,#b9cbd9);border-radius:12px;background:#fff}.ds-table-wrap:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}.ds-table th,.ds-table td{text-align:left;padding:.9rem;vertical-align:top;border-bottom:1px solid var(--line,#b9cbd9);overflow-wrap:anywhere;max-width:28ch}.ds-table th{background:#dce9f3;font-size:.9rem}.ds-table tr:last-child td{border-bottom:0}@media(max-width:600px){.ds-table th,.ds-table td{min-width:140px}.ds-table{font-size:.9rem}}.ds-record-link{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:#fff;color:var(--navy,#183e60)}.ds-record-link:hover{filter:brightness(1.13)}.ds-record-link:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-record-link:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-record-link{max-width:100%}}"
+    },
+    {
+      "name": "Explicit Administrator Full-Return Form",
+      "kind": "custom",
+      "description": "Native required reason and one-time action for all original components; a static before-submission form with a non-submitting button and no backend behavior.",
+      "html": "<section class=\"ds-content\" lang=\"ru\"><h2>Текущее состояние возврата</h2><form class=\"ds-panel\"><h3>Один полный локальный возврат</h3><p>Вернутся все исходные компоненты. Это не физический возврат и не денежная операция.</p><label class=\"ds-label\" for=\"ds-return-reason\">Основание полного возврата</label><textarea class=\"ds-field ds-field-textarea\" id=\"ds-return-reason\" name=\"note\" required>SYN-RETURN: вернуть исходный расход</textarea><button class=\"ds-return-action\" type=\"button\">Вернуть все компоненты один раз</button></form></section>",
+      "css": ".ds-content{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;min-width:0;overflow-wrap:anywhere}.ds-content h1{font-size:2rem;line-height:1.15;letter-spacing:-.025em;margin:0 0 .8rem}.ds-content h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-content p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}.ds-muted{color:#46627a;font-size:.9rem}.ds-authored{white-space:pre-wrap}.ds-panel{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;background:#fff;border:1px solid var(--line,#b9cbd9);border-radius:12px;padding:1.4rem;min-width:0}.ds-panel p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}@media(max-width:700px){.ds-panel{padding:1rem}}.ds-label{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;display:block;font-weight:600;margin:1rem 0 .35rem;color:#172e45}.ds-label:first-child{margin-top:0}.ds-field{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;width:100%;box-sizing:border-box;padding:.7rem;border:1px solid #7894aa;border-radius:7px;background:#fff;color:#172e45;caret-color:#174e7e}.ds-field:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-field-textarea{min-height:100px;resize:vertical}.ds-return-action{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--teal,#126653);color:#fff;border-color:var(--teal,#126653)}.ds-return-action:hover{filter:brightness(1.13)}.ds-return-action:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-return-action:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-return-action{max-width:100%}}.ds-return-action:hover{background:#0b5343}"
+    },
+    {
+      "name": "Exact Original Recipe Disclosure",
+      "kind": "custom",
+      "refersTo": "exact-recipe-disclosure",
+      "description": "Native saved recipe disclosure with original version, saved component names/quantities and authored RU/KK language nodes; current edits do not replace this snapshot.",
+      "html": "<details class=\"ds-content ds-disclosure\" lang=\"ru\"><summary>Точный исходный рецепт</summary><h2>STUDY_KIT · v3</h2><p>Вымышленный учебный комплект</p><p class=\"ds-authored\" lang=\"ru\">Только синтетический пример: две карточки и один пакет на комплект.</p><p class=\"ds-authored\" lang=\"kk\">Тек ойдан шығарылған мысал: бір жиынға екі карточка және бір қаптама.</p><ul><li>CARD · Учебная карточка SYN · 2 шт. на комплект</li><li>PACK · Пакет SYN · 1 шт. на комплект</li></ul></details>",
+      "css": ".ds-content{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;min-width:0;overflow-wrap:anywhere}.ds-content h1{font-size:2rem;line-height:1.15;letter-spacing:-.025em;margin:0 0 .8rem}.ds-content h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-content p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}.ds-muted{color:#46627a;font-size:.9rem}.ds-authored{white-space:pre-wrap}.ds-disclosure{margin-top:1rem;min-width:0;overflow-wrap:anywhere}.ds-disclosure summary{cursor:pointer;min-height:44px;display:list-item;padding:.7rem 0}.ds-disclosure summary:focus-visible{outline:3px solid #bd671a;outline-offset:3px}"
+    },
+    {
+      "name": "All-or-None Shortage Preview",
+      "kind": "custom",
+      "refersTo": "component-table",
+      "description": "Source-defined unsaved shortage preview shows all component lines and the separate explicit record action. This is not an additional reviewed raster or a saved outcome.",
+      "html": "<section class=\"ds-content ds-evidence\" lang=\"ru\"><p>STUDY_KIT · v3 · 3 комплектов</p><h2>Нехватка · пока не сохранена</h2><p>Хотя бы одного компонента не хватает. Все остатки сохранены; частичного списания нет.</p><ul class=\"ds-diagnostic\"><li>PACK: не хватает 1 шт.</li></ul><div class=\"ds-table-wrap\" tabindex=\"0\" aria-label=\"Исторические количества компонентов; горизонтальная прокрутка.\"><table class=\"ds-table\"><thead><tr><th scope=\"col\">Компонент</th><th scope=\"col\">Было, шт.</th><th scope=\"col\">Нужно / вернуть, шт.</th><th scope=\"col\">Стало, шт.</th></tr></thead><tbody><tr><td>CARD · Учебная карточка SYN</td><td>8</td><td>6</td><td>8</td></tr><tr><td>PACK · Пакет SYN</td><td>2</td><td>3</td><td>2</td></tr></tbody></table></div><p class=\"ds-muted\">Предпросмотр не меняет остатки. Сохранение — отдельное явное действие.</p><button class=\"ds-preview-action\" type=\"button\">Явно записать этот исход</button></section>",
+      "css": ".ds-content{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;color:#172e45;min-width:0;overflow-wrap:anywhere}.ds-content h1{font-size:2rem;line-height:1.15;letter-spacing:-.025em;margin:0 0 .8rem}.ds-content h2{font-size:1.3rem;margin:2rem 0 .75rem;overflow-wrap:anywhere}.ds-content p{max-width:72ch;line-height:1.6;margin:.5rem 0 1rem}.ds-muted{color:#46627a;font-size:.9rem}.ds-authored{white-space:pre-wrap}.ds-table-wrap{overflow:auto;margin-top:1rem;border:1px solid var(--line,#b9cbd9);border-radius:12px;background:#fff}.ds-table-wrap:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}.ds-table th,.ds-table td{text-align:left;padding:.9rem;vertical-align:top;border-bottom:1px solid var(--line,#b9cbd9);overflow-wrap:anywhere;max-width:28ch}.ds-table th{background:#dce9f3;font-size:.9rem}.ds-table tr:last-child td{border-bottom:0}@media(max-width:600px){.ds-table th,.ds-table td{min-width:140px}.ds-table{font-size:.9rem}}.ds-evidence{border-top:1px solid var(--line,#b9cbd9);padding-top:1rem;margin-top:1rem;display:grid;gap:.4rem}.ds-diagnostic li{overflow-wrap:anywhere}.ds-preview-action{font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;font-size:inherit;display:inline-block;min-height:44px;padding:.65rem 1rem;border:1px solid var(--navy,#183e60);border-radius:7px;font-weight:600;cursor:pointer;background:var(--teal,#126653);color:#fff;border-color:var(--teal,#126653)}.ds-preview-action:hover{filter:brightness(1.13)}.ds-preview-action:focus-visible{outline:3px solid #bd671a;outline-offset:3px}.ds-preview-action:disabled{opacity:.55;cursor:not-allowed}@media(max-width:700px){.ds-preview-action{max-width:100%}}.ds-preview-action:hover{background:#0b5343}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shared Work Cabinet",
+    "overview": "JinaqKit extends the documented TazaBatch Shared Work Cabinet. It keeps the navy identity and navigation, pale blue workspace, white labelled forms and tables, green explicit actions, system typography, and native controls. The incumbent system remains the visual authority for this bounded synthetic component ledger; the task extends an existing world.\n\nIts character is direct, flat, and readable. A saved assembly leads with identity, version, kit count, author, timestamp and written outcome, followed by every component's before/needed/after quantities. Current return state is separate from that historical result, and current balances have their own section. The signature is a shortage that leaves every after quantity equal to before, alongside a successful whole-component debit that an administrator can return once through a separate record.",
+    "keyCharacteristics": [
+      "Inherited navy navigation and pale blue workspace.",
+      "Green labelled submit actions and white bordered native forms and tables.",
+      "System typography with a fixed-size task heading.",
+      "Written saved outcome and every component's before/needed/after quantities.",
+      "All-or-none shortage evidence with unchanged after values.",
+      "Historical assembly, current return state and current balances kept distinct.",
+      "Required administrator reason and one-time full-return action.",
+      "Native exact-recipe disclosure with authored RU/KK language nodes and visible focus."
+    ],
+    "rules": [
+      {
+        "name": "The Inherited Shell Rule",
+        "body": "Extend the current TazaBatch cabinet instead of replacing its palette, typography, or navigation grammar.",
+        "section": "colors"
+      },
+      {
+        "name": "The Authored Language Rule",
+        "body": "Keep authored RU/KK descriptions in their own language nodes; labels, diagnostics and status copy remain Russian interface text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Preview Boundary Rule",
+        "body": "Keep preview wording, complete component evidence and the separate explicit record action together; a preview neither reserves components nor establishes a saved outcome.",
+        "section": "components"
+      },
+      {
+        "name": "The All-or-None Rule",
+        "body": "Keep the written shortage, every shortage amount and every component's unchanged after quantity together; available components must not appear debited by a rejected assembly.",
+        "section": "components"
+      },
+      {
+        "name": "The Full Return Rule",
+        "body": "Keep the required administrator reason and explicit one-time action for all original components; completed return identity replaces the form while the original saved assembly remains intact.",
+        "section": "components"
+      },
+      {
+        "name": "The Historical Snapshot Rule",
+        "body": "Keep saved assembly quantities and exact original recipe separate from current return state and current balances; current names or recipe edits must not overwrite historical evidence.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do inherit the navy header, pale workspace, white native forms/tables and green primary action.",
+      "Do keep connected labels, column-scoped table headers, native disclosure markers and visible focus.",
+      "Do preserve authored RU/KK descriptions within Russian interface copy.",
+      "Do distinguish unsaved preview, saved assembly outcome, current return state and current balances.",
+      "Do show every component's exact saved before/needed/after quantities with the written outcome.",
+      "Do keep shortage amounts and every unchanged after quantity together.",
+      "Do keep the required administrator reason and explicit one-time full-return action with its local boundary.",
+      "Do preserve the original recipe snapshot and separate saved return identity.",
+      "Do retain draft input and show the recovery message after a stale-command refusal.",
+      "Do allow long descriptions, timestamps, component names and SHA256 digests to wrap."
+    ],
+    "donts": [
+      "Don't replace the inherited cabinet with a new visual identity, ornamental assets or animation.",
+      "Don't hide labels or replace native tables and disclosures with decorative imitations.",
+      "Don't present a preview or entered return reason as a saved quantitative operation.",
+      "Don't imply a partial component debit for a shortage or a partial/repeated full return.",
+      "Don't substitute current component names, balances or recipe drafts for historical snapshots.",
+      "Don't present archive visibility as deleting quantities or cancelling the original operation.",
+      "Don't imply Make connectivity, a physical warehouse, orders, payments, external writes or delivered service outcomes.",
+      "Don't present a SHA256 digest or this bounded visual verdict as a signature or security certification.",
+      "Don't claim mobile or 1440px verification from captures whose actual width remained 1280px."
+    ]
+  }
+}

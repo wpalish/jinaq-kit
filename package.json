@@ -1,0 +1,14 @@
+{
+  "name": "jinaq-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Синтетическая сборка комплектов по опубликованному рецепту и целый количественный журнал.",
+  "engines": {
+    "node": ">=24.15 <25"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "node --test --test-reporter=tap tests/*.test.js"
+  }
+}

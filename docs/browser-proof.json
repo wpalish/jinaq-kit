@@ -1,0 +1,142 @@
+{
+  "product": "jinaq-kit",
+  "synthetic_only": true,
+  "sequence": [
+    "initial2items/1recipe/2parts/publicationv3/2receipts10+3 atrevision8",
+    "TabApreview3kits10→4/3→0;TabBexplicit1kit10→8/3→2 atrevision9;oldTabAconfirmation refused whole9/audit9,quantity/note retained",
+    "fresh3kitreport shortagePACK1;CARD8→8/PACK2→2;zero debit,revision10",
+    "separate authenticatedHTTPsession renamedCARDtoNEW_CARD,changedpart2to9,archiveditem;prior publication/assemblies exact,revision13",
+    "oldadminreturnform refused whole13/audit13 andretainednote;refresh/nativeTabReturn returnedold2CARD+1PACK separateentry5,revision14",
+    "currentbalance archivedNEW_CARD10/PACK3;old assembly/publication keepCARD/2units,v3"
+  ],
+  "stale_assembly": {
+    "before": "work/program/jinaq-stale-before.json",
+    "after": "work/program/jinaq-stale-after.json",
+    "whole_workspace_audit_equal": true,
+    "revision": 9
+  },
+  "stale_return": {
+    "before": "work/program/jinaq-return-stale-before.json",
+    "after": "work/program/jinaq-return-stale-after.json",
+    "whole_workspace_audit_equal": true,
+    "revision": 13
+  },
+  "HTTP": {
+    "revision": 14,
+    "audit_events": 14,
+    "results": [
+      {
+        "name": "archived item assembly",
+        "status": 400,
+        "error": "Компонент публикации в архиве.",
+        "whole_workspace_and_audit_unchanged": true
+      },
+      {
+        "name": "archived item receipt",
+        "status": 400,
+        "error": "Компонент в архиве.",
+        "whole_workspace_and_audit_unchanged": true
+      },
+      {
+        "name": "repeat full return",
+        "status": 400,
+        "error": "Эта сборка уже возвращена.",
+        "whole_workspace_and_audit_unchanged": true
+      },
+      {
+        "name": "staff return",
+        "status": 400,
+        "error": "Этот раздел изменяет только администратор.",
+        "whole_workspace_and_audit_unchanged": true
+      },
+      {
+        "name": "shortage return",
+        "status": 400,
+        "error": "Нельзя вернуть сборку с нехваткой.",
+        "whole_workspace_and_audit_unchanged": true
+      },
+      {
+        "name": "used UUID",
+        "status": 400,
+        "error": "Нужен новый UUID ключ действия.",
+        "whole_workspace_and_audit_unchanged": true
+      },
+      {
+        "name": "stale revision",
+        "status": 400,
+        "error": "Данные изменились в другой вкладке. Обновите экран перед сохранением.",
+        "whole_workspace_and_audit_unchanged": true
+      },
+      {
+        "name": "immutable assembly",
+        "status": 400,
+        "error": "Количественная история неизменна.",
+        "whole_workspace_and_audit_unchanged": true
+      }
+    ]
+  },
+  "final": {
+    "revision": 14,
+    "audit_events": 14,
+    "items": 2,
+    "recipes": 1,
+    "parts": 2,
+    "publications": 1,
+    "receipts": 2,
+    "assemblies": 2,
+    "reversals": 1
+  },
+  "captures": [
+    {
+      "source": ".impeccable/review/shortage-1280.jpg",
+      "shipping_path": "docs/shortage-1280.jpg",
+      "origin": "Own synthetic local browser http://127.0.0.1:8852",
+      "actual_encoding": "JPEG",
+      "actual_viewport_width": 1280,
+      "opened_valid": true,
+      "sha256": "13e2b38bb9f56c0bdb48772c28d760d14e5e6983ae5ea45203026ca582b5d00c",
+      "generation_prompt": null
+    },
+    {
+      "source": ".impeccable/review/return-form-1280.jpg",
+      "shipping_path": "docs/return-form-1280.jpg",
+      "origin": "Own synthetic local browser http://127.0.0.1:8852",
+      "actual_encoding": "JPEG",
+      "actual_viewport_width": 1280,
+      "opened_valid": true,
+      "sha256": "2e291bba13ea549095fd5a3e6932cfe680c859667d2f5a9ecb47930ad97933e4",
+      "generation_prompt": null
+    },
+    {
+      "source": ".impeccable/review/returned-1280.jpg",
+      "shipping_path": "docs/returned-1280.jpg",
+      "origin": "Own synthetic local browser http://127.0.0.1:8852",
+      "actual_encoding": "JPEG",
+      "actual_viewport_width": 1280,
+      "opened_valid": true,
+      "sha256": "0b8b672f4d1d13e7b070b0e979742cab53e7e205ff925a8aafde725ce68e1ed8",
+      "generation_prompt": null
+    },
+    {
+      "source": ".impeccable/review/reversal-1280.jpg",
+      "shipping_path": "docs/reversal-1280.jpg",
+      "origin": "Own synthetic local browser http://127.0.0.1:8852",
+      "actual_encoding": "JPEG",
+      "actual_viewport_width": 1280,
+      "opened_valid": true,
+      "sha256": "f9c07332586e4d8533d69fa37c374d6baeb0f201a0480227c45b427009b62d85",
+      "generation_prompt": null
+    },
+    {
+      "source": ".impeccable/review/balances-1280.jpg",
+      "shipping_path": "docs/balances-1280.jpg",
+      "origin": "Own synthetic local browser http://127.0.0.1:8852",
+      "actual_encoding": "JPEG",
+      "actual_viewport_width": 1280,
+      "opened_valid": true,
+      "sha256": "70551ffc662fd660df8878925c082701ed094df7ca0d162a3cb42671f7b4a8b0",
+      "generation_prompt": null
+    }
+  ],
+  "browser_limits": "Requested1440/390 viewport capability did not apply:DOM stayed1280. Invalid filenames removed/renamed actual1280,not responsive evidence. Five valid fullcurrent captures only1280; no mobile/touch/screenreader claim. NativeTab/Return successfulreturn,nativedisclosure/errorfocus/langkkobserved. Earlypreview saved-wording corrected beforecurrentcaptures."
+}

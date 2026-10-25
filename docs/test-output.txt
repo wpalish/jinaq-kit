@@ -1,0 +1,130 @@
+TAP version 13
+# Subtest: all components debit atomically from frozen recipe with exact before/needed/after
+ok 1 - all components debit atomically from frozen recipe with exact before/needed/after
+  ---
+  duration_ms: 17.9495
+  type: 'test'
+  ...
+# Subtest: one shortage saves full evidence and zero debit of every component
+ok 2 - one shortage saves full evidence and zero debit of every component
+  ---
+  duration_ms: 1.555167
+  type: 'test'
+  ...
+# Subtest: preview is read-only and cannot reserve or choose client results
+ok 3 - preview is read-only and cannot reserve or choose client results
+  ---
+  duration_ms: 1.017834
+  type: 'test'
+  ...
+# Subtest: full return uses original quantities once;separate return does not edit assembly
+ok 4 - full return uses original quantities once;separate return does not edit assembly
+  ---
+  duration_ms: 1.371833
+  type: 'test'
+  ...
+# Subtest: roles deny staff receipts/returns and allow both staff authors to assemble
+ok 5 - roles deny staff receipts/returns and allow both staff authors to assemble
+  ---
+  duration_ms: 1.602416
+  type: 'test'
+  ...
+# Subtest: quantity bounds are enforced for receipt,part and kit counts
+ok 6 - quantity bounds are enforced for receipt,part and kit counts
+  ---
+  duration_ms: 1.832
+  type: 'test'
+  ...
+# Subtest: draft permits missing descriptions but publication requires both and a component
+ok 7 - draft permits missing descriptions but publication requires both and a component
+  ---
+  duration_ms: 0.441708
+  type: 'test'
+  ...
+# Subtest: recipe limits10 distinct components and immutable parent/item links
+ok 8 - recipe limits10 distinct components and immutable parent/item links
+  ---
+  duration_ms: 3.674042
+  type: 'test'
+  ...
+# Subtest: publication uniqueness persists after archive;part edit/archive advances recipe version
+ok 9 - publication uniqueness persists after archive;part edit/archive advances recipe version
+  ---
+  duration_ms: 1.361208
+  type: 'test'
+  ...
+# Subtest: late component/recipe changes preserve exact previous snapshots and reversal
+ok 10 - late component/recipe changes preserve exact previous snapshots and reversal
+  ---
+  duration_ms: 2.004958
+  type: 'test'
+  ...
+# Subtest: global revision rejects stale consume after concurrent receipt or unrelated edit
+ok 11 - global revision rejects stale consume after concurrent receipt or unrelated edit
+  ---
+  duration_ms: 0.897583
+  type: 'test'
+  ...
+# Subtest: UUID replay spans receipt/assembly/return and remains spent after archive
+ok 12 - UUID replay spans receipt/assembly/return and remains spent after archive
+  ---
+  duration_ms: 2.342375
+  type: 'test'
+  ...
+# Subtest: archive is visibility only,unreturned success cannot hide,returned/shortage can
+ok 13 - archive is visibility only,unreturned success cannot hide,returned/shortage can
+  ---
+  duration_ms: 2.452875
+  type: 'test'
+  ...
+# Subtest: archives close new operations but historical reversal restores archived component
+ok 14 - archives close new operations but historical reversal restores archived component
+  ---
+  duration_ms: 1.895125
+  type: 'test'
+  ...
+# Subtest: history is immutable and server ignores injected balances,outcome,actor,time,seq
+ok 15 - history is immutable and server ignores injected balances,outcome,actor,time,seq
+  ---
+  duration_ms: 1.114459
+  type: 'test'
+  ...
+# Subtest: clock rollback refuses next ledger event without changing state or audit
+ok 16 - clock rollback refuses next ledger event without changing state or audit
+  ---
+  duration_ms: 0.879834
+  type: 'test'
+  ...
+# Subtest: two SQLite sessions cannot both consume the same stale stock
+ok 17 - two SQLite sessions cannot both consume the same stale stock
+  ---
+  duration_ms: 4.125417
+  type: 'test'
+  ...
+# Subtest: file restart and consistent SQLite backup preserve all ledger rows,audit and balances
+ok 18 - file restart and consistent SQLite backup preserve all ledger rows,audit and balances
+  ---
+  duration_ms: 5.347917
+  type: 'test'
+  ...
+# Subtest: empty restore reproduces ledger;corrupt balances/snapshot/sequence/return/replay reject
+ok 19 - empty restore reproduces ledger;corrupt balances/snapshot/sequence/return/replay reject
+  ---
+  duration_ms: 2.632875
+  type: 'test'
+  ...
+# Subtest: HTTP auth,roles,Origin,CSRF,cookie,privacy,quantity journal and forbidden staff reversal
+ok 20 - HTTP auth,roles,Origin,CSRF,cookie,privacy,quantity journal and forbidden staff reversal
+  ---
+  duration_ms: 125.911583
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 249.200583

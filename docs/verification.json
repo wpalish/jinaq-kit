@@ -25,7 +25,7 @@
     "Actual two forms:one explicit assembly consumes2CARD+1PACK;old3kitconfirmation refused whole9/audit9,inputretained. Fresh3kit savedshortage with everybalanceunchanged.",
     "Renamed/archived component andnewdraftquantity9 didnotalterpriorpublicationv3/assemblies;oldreturnformrefusedwhole13/audit13. Freshadminreturnrestoredoriginal2+1,notnew9.",
     "8 actualHTTP400refused with wholeworkspace/audit14unchanged;final2items/1recipe/2parts/1pub/2receipts/2assemblies/1return.",
-    "Ownedrestart43498→43632 preserved wholeworkspace/audit14/all4tables;29priorserverDBsunchanged,Sabaqowneroriginuntouched.",
+    "Ownedrestart43498→43632 preserved wholeworkspace/audit14/all5tables;29priorserverDBsunchanged,Sabaqowneroriginuntouched.",
     "Five fullvalid1280CSS captures opened;scrollWidth1280,nativeTabReturn/disclosure/focus/langkkobserved;requestedotherwidthsnotapplied andnotclaimed."
   ],
   "limits": [
@@ -66,5 +66,17 @@
     "interest_confirmed": 0,
     "new_sends": 0
   },
-  "release_note": "JinaqKit reference12:original publishedkitrecipe and atomicall-or-none localquantityledger, savedzero-debitshortage andexactlyonceadminfullreturn.20tests;actualstalerefusals9/13;8HTTP400whole14/audit14;ownrestart/all4tables/29priorDBs preserved. Actualbrowser1280only;no mobileclaim. Noexternalintegration/physicalstock/clientclaim."
+  "release_note": "JinaqKit reference12:original publishedkitrecipe and atomicall-or-none localquantityledger, savedzero-debitshortage andexactlyonceadminfullreturn.20tests;actualstalerefusals9/13;8HTTP400whole14/audit14;ownrestart/all5tables/29priorDBs preserved. Actualbrowser1280only;no mobileclaim. Noexternalintegration/physicalstock/clientclaim.",
+  "evidence_clarification": {
+    "as_of": "2026-10-25",
+    "correct_table_names": [
+      "audit",
+      "failures",
+      "sessions",
+      "users",
+      "workspace"
+    ],
+    "files": "jinaq-tables-before.json and jinaq-tables-after.json already enumerate all five and match;the earlier numeral4/authsessions wording was an inaccurate label,not missing verification",
+    "scope": "Documentation only,no domain/UI/runtime/database change"
+  }
 }
